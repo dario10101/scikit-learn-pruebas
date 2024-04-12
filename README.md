@@ -1,3 +1,5 @@
+Mini-Framework para procesamiento de diferentes DataSets, bien sea clasificación, regresión o clustering, pasando por diferentes algoritmos.
+
 TODO
 - Agregar mas algoritmos
 - Agregar forma de optimizar parámetros
@@ -48,24 +50,24 @@ TIPOS DE VALIDACION
 - Validacion cruzada (LOOCV): Proceso mas intenso, entrenar con todos los datos menos uno, e ir iterando
 
 ALGORITMOS:
-- Clasificacion:
+Clasificacion:
 * GradientBoostingClassifier
 * KNeighborsClassifier
 * LinearSVC
 * SGDClassifier
 * DecisionTreeClassifier
 * BaggingClassifier (para unir varios clasificadores)
-- Regresion:
+Regresion:
 * LinearRegression: Variable objetivo continua
 * Lasso: Variable objetivo continua
 * Ridge: Variable objetivo continua
 * ElasticNet: Variable objetivo continua
 * LogisticRegression: Variable objetivo categórica
-- Regresión (robustas):
+Regresión (robustas):
 * SVR
 * RANSAC
 * HUBER
-- Clustering:
+Clustering:
 * MeanShift
 * MiniBatchKMeans
 
