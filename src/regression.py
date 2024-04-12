@@ -32,6 +32,8 @@ def run_categorical(x, y):
 def run_continuous(x, y):
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.35)
 
+    # TODO Agregar DecisionTreeRegressor, RandomForestRegressor
+
     linear_regression(x_train, x_test, y_train, y_test)    
     lasso(x_train, x_test, y_train, y_test)
     ridge(x_train, x_test, y_train, y_test)
